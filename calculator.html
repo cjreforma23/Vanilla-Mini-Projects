@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <script defer src="calculator.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main class="calculator">
+        <div class="display">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand">0</div>
+        </div>
+        <div class="buttons">
+            <button class="btn-action span-two" data-action="clear">AC</button>
+            <button class="btn-action" data-action="delete">DEL</button>
+            <button data-operator="÷">÷</button>
+
+            <button data-number="7">7</button>
+            <button data-number="8">8</button>
+            <button data-number="9">9</button>
+            <button data-operator="x">x</button>
+
+            <button data-number="4">4</button>
+            <button data-number="5">5</button>
+            <button data-number="6">6</button>
+            <button data-operator="-">-</button>
+
+            <button data-number="1">1</button>
+            <button data-number="2">2</button>
+            <button data-number="3">3</button>
+            <button data-operator="+">+</button>
+
+            <button data-number=""></button>
+            <button data-number=""></button>
+            <button class="btn-equals span-two" data-action="calculate">=</button>
+
+        </div>
+    </main>
+
+
+</body>
+</html>
